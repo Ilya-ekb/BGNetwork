@@ -7,7 +7,7 @@ using Game;
 using GameLogic.GameData.Contexts;
 using Models.Contexts;
 using Networks;
-using Unity.Plastic.Newtonsoft.Json;
+using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Networking;
 

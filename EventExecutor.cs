@@ -3,7 +3,7 @@ using Contexts;
 using Core;
 using Events;
 using Game;
-using Unity.Plastic.Newtonsoft.Json;
+using Newtonsoft.Json;
 
 
 namespace GameLogic.Networks
@@ -32,7 +32,6 @@ namespace GameLogic.Networks
             if (@params[0].Equals(nameof(InputAction)) && 
                 @params[1].Equals(nameof(InputAction.GameCut)))
             {
-                
                 message =  $"{@params[0]}/{@params[1]}/{JsonConvert.SerializeObject(Container.GameData.Get())}" ;
                 return true;
             }
