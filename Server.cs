@@ -64,7 +64,6 @@ namespace Game.Networks
                 {
                     webContext[clientIp] = new Connection(client);
                     webContext[clientIp].SetAlive();
-                    
                 }
 
                 var interaction = new Interaction(client, ServerPath);
