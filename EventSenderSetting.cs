@@ -1,7 +1,6 @@
-﻿using GameLogic.Networks;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Networks
+namespace Game.Networks
 {
     [CreateAssetMenu(menuName = "Game/NetworkSetting/EventSenderSetting", fileName = nameof(EventSenderSetting), order = 0)]
     public class EventSenderSetting : NetworkSetting

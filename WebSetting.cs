@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     [CreateAssetMenu(menuName = "Game/NetworkSetting/WebSetting", fileName = nameof(WebSetting), order = 0)]
     public class WebSetting : NetworkSetting

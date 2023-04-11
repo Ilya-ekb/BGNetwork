@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Events;
 
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     [Serializable]
     public class EventData : Dictionary<string, Dictionary<string, string>>

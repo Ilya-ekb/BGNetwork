@@ -4,9 +4,10 @@ using System.Net.Sockets;
 using System.Text;
 using Core;
 using Core.ObjectsSystem;
+using Game.Networks;
 using UnityEngine;
 
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     public class Connection : IDroppable
     {

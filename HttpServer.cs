@@ -2,13 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
-using Contexts;
+using Game.Contexts;
 using Core;
 using Core.ObjectsSystem;
-using Models.Contexts;
 using UnityEngine;
 
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     public class HttpServer : BaseDroppable
     {

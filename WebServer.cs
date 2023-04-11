@@ -1,10 +1,9 @@
-using Contexts;
 using Core;
 using Core.ObjectsSystem;
-using Models.Contexts;
+using Game.Contexts;
 using UnityEngine;
 
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     public class WebServer : BaseDroppable
     {

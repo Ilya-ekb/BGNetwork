@@ -1,9 +1,8 @@
 using System.Net;
-using Contexts;
+using Game.Contexts;
 using Core.ObjectsSystem;
-using Models.Contexts;
 
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     public abstract class HttpExecutor : BaseDroppable, IContextExecutor<HttpListenerContext>
     {

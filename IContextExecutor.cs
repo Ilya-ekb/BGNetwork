@@ -1,6 +1,6 @@
 using Core.ObjectsSystem;
 
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     public interface IContextExecutor<in TContext>: IDroppable
     {

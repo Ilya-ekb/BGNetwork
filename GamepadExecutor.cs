@@ -1,12 +1,12 @@
 using System;
 using System.Net;
-using Contexts;
+using Game.Contexts;
 using Core;
 using Events;
-using GameLogic.Inputs;
+using Game.Inputs;
 using UnityEngine;
 
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     public class GamepadExecutor : HttpExecutor
     {

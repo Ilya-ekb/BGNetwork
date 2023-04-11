@@ -1,6 +1,7 @@
 using System.Net;
+using Game.Networks;
 
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     public class HttpHandler : RequestHandler<HttpListenerContext>
     {

@@ -1,6 +1,4 @@
-using Game.Settings;
-
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     public abstract class NetworkSetting : BaseSetting
     {

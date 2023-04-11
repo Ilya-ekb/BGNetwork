@@ -1,13 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Contexts;
 using Core;
 using Events;
-using GameLogic.Networks;
+using Game.Networks;
 using UnityEngine.Networking;
 
-namespace Models.Contexts
+namespace Game.Contexts
 {
     public class HTTPContext : ConnectContext
     {

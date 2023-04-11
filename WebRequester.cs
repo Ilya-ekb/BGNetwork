@@ -1,9 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using GameLogic.Networks;
-using Models.Contexts;
-using Networks;
+using Game.Networks;
+using Game.Contexts;
 using UnityEngine;
 using UnityEngine.Networking;
 

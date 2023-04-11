@@ -1,7 +1,6 @@
-using System;
 using Core.ObjectsSystem;
 
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     public abstract class RequestHandler<TContext> : BaseDroppable
     {

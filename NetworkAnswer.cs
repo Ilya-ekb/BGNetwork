@@ -1,4 +1,4 @@
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     public class NetworkAnswer
     {

@@ -1,17 +1,13 @@
 using System.Runtime.InteropServices;
 using System.Text;
-using Contexts;
+using Game.Contexts;
 using Core;
 using Core.ObjectsSystem;
-using Game;
-using GameLogic.GameData.Contexts;
-using Models.Contexts;
-using Networks;
 using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     public class EventSender : BaseDroppable
     {

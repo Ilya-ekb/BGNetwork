@@ -9,7 +9,7 @@ using Core.Locations.Model;
 using Core.ObjectsSystem;
 using UnityEngine;
 
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     public class Interaction : IDroppable
     {

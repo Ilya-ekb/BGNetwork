@@ -1,9 +1,8 @@
 using System;
-using BGCore.Game.Factories;
-using Contexts;
+using Game.Factories;
+using Game.Contexts;
 using Core.ObjectsSystem;
-using GameLogic.Networks;
-using Networks;
+using Game.Networks;
 
 namespace Factories
 {

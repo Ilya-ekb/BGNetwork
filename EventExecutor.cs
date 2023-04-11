@@ -1,12 +1,11 @@
 using System.Net;
-using Contexts;
 using Core;
 using Events;
-using Game;
+using Game.Contexts;
 using Newtonsoft.Json;
 
 
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     public class EventExecutor : HttpExecutor
     {

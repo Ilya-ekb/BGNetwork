@@ -1,9 +1,9 @@
 using System;
-using Contexts;
+using Game.Contexts;
 using Core;
 using Events;
 
-namespace Networks
+namespace Game.Networks
 {
     [Serializable]
     public class GameData

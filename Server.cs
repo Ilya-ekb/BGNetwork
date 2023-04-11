@@ -2,9 +2,9 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading.Tasks;
-using Models.Contexts;
+using Game.Contexts;
 
-namespace GameLogic.Networks
+namespace Game.Networks
 {
     public class Server
     {

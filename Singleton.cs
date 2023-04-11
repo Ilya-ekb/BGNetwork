@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Networks
+namespace Game.Networks
 {
     public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     {
